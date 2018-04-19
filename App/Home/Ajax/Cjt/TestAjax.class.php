@@ -20,6 +20,6 @@ class TestAjax extends CookieApi
      */
     public function run()
     {
-        $this->success(['code' => 1]);
+        $this->success(['code' => 1, 'msg' => 'successfully']);
     }
 }
