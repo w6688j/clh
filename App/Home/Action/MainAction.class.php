@@ -6,7 +6,7 @@
  * Time: 17:12
  */
 
-namespace Clhapp\Izhuyan\Action;
+namespace Clhapp\Home\Action;
 
 use Clhapp\Action;
 use Clhapp\Log;

@@ -47,7 +47,7 @@ return [
     'SHOW_SQL'  => true,//是否记录SQL
     'LOG_TRACE' => true,//强制记录调试语句入日志
 
-    'APP_LIST' => 'Home,Izhuyan',
+    'APP_LIST' => 'Home,Home',
 
     'NOLOGIN_MODULE'    => 'login,crontab',
     'NOLOGIN_ACTION'    => '',

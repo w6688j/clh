@@ -6,7 +6,7 @@
  * Time: 22:36
  */
 
-namespace Clhapp\Izhuyan\Ajax\Ydh;
+namespace Clhapp\Home\Ajax\Ydh;
 
 use Clhapp\Api\CookieApi;
 use Clhapp\Ydh\DealYdh;

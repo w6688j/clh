@@ -1,6 +1,6 @@
 <?php
 require_once dirname(dirname(__DIR__)) . '/Libs/Clhapp.php';
-define('APP_PATH', VPATH . '/App/Izhuyan');
+define('APP_PATH', VPATH . '/App/Home');
 $_GET['m'] = 'crontab';
 $env       = 'ONLINE';
 if (file_exists(VPATH . '/.host')) {

@@ -123,7 +123,7 @@ class sendcloud
             'api_user' => $API_USER, # 使用api_user和api_key进行验证
             'api_key'  => $API_KEY,
             'from'     => 'dev@mail.dev.izhuyan.com', # 发信人，用正确邮件地址替代
-            'fromname' => 'Izhuyan',
+            'fromname' => 'Home',
             'to'       => $this->nickNames, # 收件人地址，用正确邮件地址替代，多个地址用';'分隔
             'subject'  => $this->subject,
             'html'     => $this->content,

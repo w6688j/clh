@@ -6,7 +6,7 @@
  * Time: 22:34
  */
 
-namespace Clhapp\Izhuyan\Action;
+namespace Clhapp\Home\Action;
 
 use Clhapp\Extend\HeartBeat;
 use Clhapp\Log;

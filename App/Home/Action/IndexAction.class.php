@@ -6,7 +6,7 @@
  * Time: 16:58
  */
 
-namespace Clhapp\Izhuyan\Action;
+namespace Clhapp\Home\Action;
 
 class IndexAction extends MainAction
 {
@@ -17,7 +17,7 @@ class IndexAction extends MainAction
      */
     public function index()
     {
-        $this->setWebTitle('Izhuyan');
+        $this->setWebTitle('Home');
         $this->assign('config', $this->getConfig());
         $this->display();
     }

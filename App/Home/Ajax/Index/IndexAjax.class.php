@@ -6,7 +6,7 @@
  * Time: 22:08
  */
 
-namespace Clhapp\Izhuyan\Ajax\Index;
+namespace Clhapp\Home\Ajax\Index;
 
 use Clhapp\Api\CookieApi;
 

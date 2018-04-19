@@ -6,7 +6,7 @@
  * Time: 14:35
  */
 
-namespace Clhapp\Izhuyan\Ajax\Cjt;
+namespace Clhapp\Home\Ajax\Cjt;
 
 use Clhapp\Api\CookieApi;
 use Clhapp\Cjt\DealCjt;

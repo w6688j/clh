@@ -10,7 +10,7 @@ return [
     'php_bin'     => '/usr/local/php7/bin/php',
     'log'         => '/dev/shm/crontab.log',
     'pid_path'    => '/tmp/crontab.pid',
-    'run_file'    => VPATH . '/wwwroot/Izhuyan/crontab.php',
+    'run_file'    => VPATH . '/wwwroot/Home/crontab.php',
     'status'      => true,
     //心跳间隔时间 间隔调整 每3小时发一次心跳
     'heart_space' => 86400,

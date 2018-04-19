@@ -76,7 +76,7 @@ class YdhApi
      */
     public function creatAccessToken()
     {
-        $path = VPATH . "/wwwroot/Izhuyan/cache/access_token.php";
+        $path = VPATH . "/wwwroot/Home/cache/access_token.php";
         $data = json_decode($this->get_php_file($path));
         if ($data->expire_time < time()) {
             Log::write($this->getAccessTokenUrl());
