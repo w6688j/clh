@@ -1,8 +1,8 @@
 <?php
-require_once dirname(dirname(__DIR__)) . '/Libs/Clhapp.php';
+require_once dirname(dirname(__DIR__)) . '/Libs/Api.php';
 define('APP_PATH', VPATH . '/App/Home');
 try {
-    Clhapp\Clhapp::start();
+    Clhapp\Clhapi::start();
 } catch (\Clhapp\AppException $e) {
     print_r($e);
     die();

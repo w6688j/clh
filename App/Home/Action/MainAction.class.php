@@ -13,6 +13,8 @@ use Clhapp\Log;
 
 class MainAction extends Action
 {
+    protected $userObj;
+
     /**
      * _initialize 初始化
      *

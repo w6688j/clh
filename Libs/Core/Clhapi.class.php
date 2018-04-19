@@ -52,7 +52,7 @@ class Clhapi
             define('MODULE_NAME', $Model);
             define('ACTION_NAME', $Action);
             if (!preg_match("#^[\w]+$#", $Model)) {
-                throw new AppException('非法请求', 929010);
+                    throw new AppException('非法请求', 929010);
             }
             $ModelName  = ucfirst($Model);
             $ActionName = ucfirst($Action) . 'Ajax';

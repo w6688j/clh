@@ -35,6 +35,7 @@ class Dispatcher
             }
             $ModelName = ucfirst($Model) . 'Action';
             $ModelFile = APP_PATH . "/Action/{$ModelName}.class.php";
+
             if (is_file($ModelFile)) {
                 include $ModelFile;
                 $dirname   = basename(APP_PATH);
