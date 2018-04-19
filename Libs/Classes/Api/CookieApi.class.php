@@ -47,6 +47,11 @@ abstract class CookieApi
 
     abstract public function run();
 
+    /**
+     * CookieApi constructor.
+     *
+     * @throws ApiException
+     */
     final public function __construct()
     {
         if (APP_DEBUG) {
@@ -54,8 +59,8 @@ abstract class CookieApi
         }
         $this->_starttime = microtime(true);
         $this->setExceptionHandle();
-
         $this->formatParams();
+
         if (method_exists($this, '_init')) {
             $this->_init();
         }
@@ -65,6 +70,7 @@ abstract class CookieApi
      * formatParams @desc 解析参数
      *
      * @author wangjian
+     * @throws ApiException
      */
     private function formatParams()
     {
